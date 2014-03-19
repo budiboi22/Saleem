@@ -1,0 +1,200 @@
+/*
+Theme Name: Saleemidea
+Theme URI: http://budiboi.com/work/saleemidea
+Author: the WordPress team
+Author URI: http://budiboi.com/
+*/
+
+.body{
+	background:url('images/bg.png');
+	background-size:100%;
+        font-family:Calibri !important;
+}
+
+.logo{
+	width:100%;
+	margin-top:-10px;
+}
+
+.nav_text,.nav_text_first{
+	color:#fff !important;
+}
+
+.nav_text:before{
+    content:"|";
+    padding-right:20px;
+}
+
+.nav_text_first:after{
+    content:"";
+}
+
+.active,.nav_text:hover,.nav_text_first:hover{
+	color:#0da4fb !important;
+        transition: all 0.35s ease-in-out 0s;
+}
+
+.top_content{
+    height:auto;
+}
+
+video, object {
+ left:0;
+ top:0;
+ width:100%;
+}
+
+
+.our_client{
+	height:auto;
+	padding-bottom:20px !important;
+	background:url('images/bg_1.png') no-repeat;
+	background-size:auto;
+	background-position:left bottom;
+	overflow:auto;
+}
+
+.whoiam{
+	padding:10px 0px !important;
+	background:url('images/whoami.png') no-repeat center center;
+	background-size:100%;
+	min-height:600px;
+	height:auto;
+	overflow:auto;
+}
+
+.whoami_detail{
+margin-top:100px;
+}
+
+.project_detail{
+	margin-top:15px;
+}
+
+.whoami_img{
+	width:100%;
+	position:relative;
+}
+
+.who{
+	text-align:right;
+	padding:15px;
+	border-bottom:2pt solid #fff;
+	margin-bottom:25px;
+}
+
+.project{
+	text-align:right;
+	padding:5px;
+}
+
+.head_text{
+	color:#fff;
+}
+
+.head_text_client{
+	color:#377bd1;
+	text-align:right;
+	padding:15px;
+	border-bottom:2pt solid #4fd0f8;
+	margin-bottom:25px;
+}
+
+.head_text_project{
+    background-color:#377bd1;
+}
+
+.detail_client{
+	color:#a7a6a6;
+	text-align:justify;
+}
+
+.view_more_client{
+	background:#377cd3;
+	text-decoration:none;
+	color:#fff;
+	padding:15px 0px !important;
+}
+
+.link_view_more{
+	text-decoration:none;
+	color:#fff;
+	text-align:center;
+	line-height:15px;
+}
+
+.view_more_client:hover,.link_view_more:hover{
+	text-decoration:none !important;
+	opacity:0.8;
+	transition: all 0.25s ease-in-out 0s;
+}
+
+.view_more{
+	background:#ffffff;
+	color:#737373;
+	padding:15px 0px !important;
+}
+
+.link_view{
+	text-decoration:none;
+	color:#737373;
+	text-align:center;
+	line-height:15px;
+}
+
+.view_more:hover,.link_view:hover{
+	text-decoration:none !important;
+	opacity:0.8;
+	transition: all 0.25s ease-in-out 0s;
+}
+
+footer{
+	width:100%;
+	background:#4a4949;
+	min-height:200px;
+}
+
+.top_video{
+	text-align:justify;
+	position:relative;
+	margin-top:-500px;
+}
+
+.text_video{
+	font-size:1.2em;
+}
+
+.search_custom{
+	background:#4a4949 !important;
+        padding-top:0px !important;
+        padding-bottom:0px !important;
+	color:#fff !important;
+	border-radius:0px !important;
+        border-color: #377cd3;
+}
+
+.section{
+padding:0 !important;
+}
+
+.div_link .col-md-2{
+    width: 20% !important;
+    background: #000;
+}
+
+.div_link .col-md-2 img{
+    opacity:0.3;
+}
+
+.div_link .col-md-2 img:hover{
+    opacity:1.0;   
+    transition: all 600ms ease-in;
+    cursor:pointer;
+}
+
+#content_wrap{
+	width: 100%;
+	position: relative;
+	transition: all 800ms ease-in-out;
+	top: 0;
+}
